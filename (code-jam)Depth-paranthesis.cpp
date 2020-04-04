@@ -37,7 +37,7 @@ int main(){
             res+=paras(arr[i])+num[i+1];
         }
         res=res+paras((-1*(stoi(i2))));
-        cout << "Case #" << k << ": "<< res << "\n";
+        cout <<"Case #"<< k << ": "<< res << " " << endl;
         k++;
     }
 }
